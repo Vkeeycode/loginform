@@ -1,0 +1,84 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: auto;
+  margin-top: 250px;
+  background: white;
+  padding-bottom: 30px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+.text {
+  color: #3c009d;
+  font-size: 40px;
+  font-weight: 600px;
+}
+.underline {
+  width: 300px;
+  height: 7px;
+  background: #3c009d;
+  border-radius: 9px;
+}
+.inputs {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 450px;
+  height: 75px;
+  background: #eaeaea;
+  border-radius: 6px;
+}
+.input img {
+  margin: 0px 30px;
+}
+.input input {
+  height: 45px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 19px;
+}
+
+.Submit-Container {
+  gap: 25px;
+  margin: 60px auto;
+}
+
+.btn {
+  width: 150px;
+  height: 40px;
+  color: white;
+  background: #4c00b4;
+  border-radius: 50px;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.user {
+  width: 15px;
+  height: 15px;
+}
+
+.email {
+  width: 15px;
+  height: 15px;
+}
+.password {
+  width: 15px;
+  height: 15px;
+}
